@@ -11,12 +11,14 @@
             "id": "3d6583e5a81e5f77",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3.1.pdf"
+                "file": "3.2 本地化部署Deepseek.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "3.1"
+              "icon": "lucide-file",
+              "title": "3.2 本地化部署Deepseek"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.1.pdf",
+                "file": "3.2 本地化部署Deepseek.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.1 的大纲"
+              "title": "3.2 本地化部署Deepseek 的大纲"
             }
           },
           {
@@ -179,28 +181,29 @@
   },
   "active": "3d6583e5a81e5f77",
   "lastOpenFiles": [
-    "mac教程.pdf",
+    "doc/授课时间表_0315~10614.tmp",
+    "doc/授课时间表_0315 - old~0FF1F.tmp",
+    "doc/AutoDL部署指令集.txt",
     "3.1.pdf",
+    "3.2 本地化部署Deepseek.md",
+    "doc/~$授课时间表_0315.xlsx",
+    "doc/~$授课时间表_0315 - old.xlsx",
+    "mac教程.pdf",
     "网站教程.pdf",
     "2.1 个人电脑的环境配置.pdf",
     "2.1 个人电脑的环境配置.md",
-    "doc/~$授课时间表_0315 - old.xlsx",
     "doc/授课时间表_0315 - old.xlsx",
     "doc/授课时间表_0315~2E465.tmp",
-    "doc/~$授课时间表_0315.xlsx",
     "2.1 Windows安装环境.md",
     "2025-03-18.md",
     "未命名.canvas",
-    "doc/授课时间表_0315~BB80D.tmp",
     "img/Pasted image 20250318122946.png",
     "img/Pasted image 20250318122809.png",
     "img/Pasted image 20250318122701.png",
     "img/Pasted image 20250318122438.png",
     "img/Pasted image 20250318122322.png",
-    "test/demo.ipynb",
     "img/Pasted image 20250318121903.png",
     "img/Pasted image 20250318121733.png",
-    "test/demo.py",
     "img/Pasted image 20250318120657.png",
     "img/Pasted image 20250318120607.png",
     "img/Pasted image 20250318120558.png",

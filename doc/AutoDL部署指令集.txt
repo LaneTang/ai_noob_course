@@ -1,0 +1,39 @@
+~/autodl-tmp#：
+
+学术资源加速：
+source /etc/network_turbo
+
+初始化lfs
+1. 初始化lfs
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+
+2. 安装lfs 
+sudo apt-get install git-lfs
+
+3. 初始化lfs
+git lfs install
+
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash && sudo apt-get install git-lfs && git lfs install
+
+克隆github仓库
+1. git clone
+
+安装需求库
+pip install -r requirements.txt
+
+网络监控：
+1. 安装iftop
+sudo apt-get install iftop
+
+2. 运行 iftop
+sudo iftop
+
+安装jdk
+1. 更新apt库
+sudo apt update
+
+2. 安装jdk
+apt install openjdk-21-jdk
+
+Qwen1.5-0.5B
+git clone https://www.modelscope.cn/qwen/Qwen1.5-0.5B.git
