@@ -108,11 +108,12 @@ conda activate env_name # env_name替换成想要的名字
 
 ![[Pasted image 20250309164139.png]]
 
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
 ## pip源添加
 
 ##  方法一：临时指定镜像源（单次生效）
 
-背景：有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
+背景：但是有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
 
 没有使用国内镜像源而导致的pip下载错误
 
@@ -122,6 +123,8 @@ conda activate env_name # env_name替换成想要的名字
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
 ```
 
+
+![[Pasted image 20250318114347.png]]
 ## 方法二：永久修改 pip 源
 
 创建或修改 pip 配置文件，设置默认镜像源。

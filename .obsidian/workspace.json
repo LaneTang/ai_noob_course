@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,6 +182,9 @@
   },
   "active": "491ed1544b642d4d",
   "lastOpenFiles": [
+    "doc/~$授课时间表_0315.xlsx",
+    "doc/授课时间表_0315~3E25B.tmp",
+    "img/Pasted image 20250318114347.png",
     "requirements.txt",
     "mac教程.pdf",
     "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
@@ -195,7 +198,6 @@
     "2.1 Windows安装环境.md",
     "img/Pasted image 20250309154601.png",
     "Obsidian-Remote/README.md",
-    "Obsidian-Remote",
     "未命名.canvas",
     "img/Pasted image 20250309171318.png",
     "img/Pasted image 20250309170042.png",
@@ -204,8 +206,6 @@
     "img/Pasted image 20250309165452.png",
     "img/Pasted image 20250309164912.png",
     "img/Pasted image 20250309164913.png",
-    "img/Pasted image 20250309164139.png",
-    "img/Pasted image 20250309162419.png",
-    "img"
+    "img/Pasted image 20250309164139.png"
   ]
 }
