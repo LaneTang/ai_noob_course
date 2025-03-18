@@ -108,19 +108,31 @@ conda activate env_name # env_name替换成想要的名字
 
 ![[Pasted image 20250309164139.png]]
 
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
+理论上来讲, 这个时候我们就能使用
+pip install -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
 ## pip源添加
-
-##  方法一：临时指定镜像源（单次生效）
 
 背景：但是有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
 
 没有使用国内镜像源而导致的pip下载错误
 
+### 常用源（清华源、阿里源、豆瓣源）
+
+我们目前常用的三种源就是 **清华源、阿里源以及豆瓣源** 链接如下：
+```
+清华: https://pypi.tuna.tsinghua.edu.cn/simple  
+阿里: http://mirrors.aliyun.com/pypi/simple/  
+豆瓣: http://pypi.douban.com/simple/
+```
+
+### 方法一：临时指定镜像源（单次生效）
+
+
+pip 临时换源十分简单只需要记住下面这个式子就行，这里以清华源举例. 
 在 `pip install` 命令中直接添加 `-i` 参数指定镜像源：
 
 ```bash
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh_doc\requirements.txt" # 这里替换成你requirements.txt的实际路径
 ```
 
 
@@ -130,7 +142,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh
 创建或修改 pip 配置文件，设置默认镜像源。
 
 - **Windows 系统**：
-	1. 打开文件资源管理器，输入路径：`%APPDATA%`，进入此目录。
+	1. 打开文件资源管理器/此电脑，在地址栏中输入`%APPDATA%` 按回车进行跳转到`Roaming`文件夹中
 	2. 新建文件夹 `pip`（若不存在），并在其中新建文件 `pip.ini`。
 	3. 编辑 `pip.ini`，添加以下内容：
 
@@ -142,29 +154,10 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 
 复制粘贴下面的命令，回车
 ```bash
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r D:\workSpace\pyProj\requirements.txt # 这里替换成你requirements.txt的实际路径
+pip install -r D:\workSpace\pyProj\requirements.txt # 这里替换成你requirements.txt的实际路径
 ```
 
 ![[Pasted image 20250309171318.png]]
-
-或者也可以选择手动安装
-
-```bash
-# 创建py环境
-(base) C:\Users\tanga>pip create -n my_env python=3.12 # my_env 记得替换
-
-# 激活启动对应的环境
-(base) C:\Users\tanga>pip activate my_env # my_env 记得替换
-
-# 安装对应需要的包
-pip install requests
-
-pip install jupyter
-
-pip install openai
-
-pip install PyMuPDF
-```
 
 ## 配置VSCode
 
