@@ -110,11 +110,9 @@ conda activate env_name # env_name替换成想要的名字
 
 理论上来讲, 这个时候我们就能使用
 pip install -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
-## pip源添加
+## pip源添加并安装requirements
 
-背景：但是有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
-
-没有使用国内镜像源而导致的pip下载错误
+有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
 
 ### 常用源（清华源、阿里源、豆瓣源）
 
@@ -126,7 +124,6 @@ pip install -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
 ```
 
 ### 方法一：临时指定镜像源（单次生效）
-
 
 pip 临时换源十分简单只需要记住下面这个式子就行，这里以清华源举例. 
 在 `pip install` 命令中直接添加 `-i` 参数指定镜像源：
@@ -144,12 +141,15 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh
 - **Windows 系统**：
 	1. 打开文件资源管理器/此电脑，在地址栏中输入`%APPDATA%` 按回车进行跳转到`Roaming`文件夹中
 	2. 新建文件夹 `pip`（若不存在），并在其中新建文件 `pip.ini`。
+		- 如果有pip文件夹并且有pip.ini文件则在对应的`[]`中添加以下内容即可。
 	3. 编辑 `pip.ini`，添加以下内容：
 
 ```
 [global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-trusted-host = pypi.tuna.tsinghua.edu.cn
+timeout = 6000
+index-url=http://mirrors.aliyun.com/pypi/simple/
+[install]
+trusted-host=mirrors.aliyun.com
 ```
 
 复制粘贴下面的命令，回车
@@ -157,7 +157,20 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 pip install -r D:\workSpace\pyProj\requirements.txt # 这里替换成你requirements.txt的实际路径
 ```
 
-![[Pasted image 20250309171318.png]]
+可以看到我这里默认源已经改为阿里源了
+
+![[Pasted image 20250318120657.png]]
+
+### 查看已安装的环境信息
+
+正常情况下环境的安装在这一步就已经==**完成**==了, 我们在`conda prompt`中输入, 回车
+```bash
+conda list
+```
+
+此处list中能看到在**requirements.txt**中出现的包名比如说`openai, jupyter, pymupdf`就代表安装完成.
+
+![[Pasted image 20250318121903.png]]
 
 ## 配置VSCode
 
@@ -179,5 +192,27 @@ pip install -r D:\workSpace\pyProj\requirements.txt # 这里替换成你requirem
 
 ![[Pasted image 20250309170042.png]]
 
-OK，环境配置完成！
+### 验证环境安装成功
+
+打开我们的**项目文件夹**, 新建一个jupyter文件(文件后缀名为 **.ipynb** ), 这里以`demo.ipynb`为例.
+
+![[Pasted image 20250318122438.png]]
+创建成功后添加一个Code块, 复制下面的代码进去, 然后`ctrl+enter`/点击左边RUN按钮 运行代码块
+
+```python
+import request
+import pymupdf
+import openai
+```
+
+![[Pasted image 20250318122701.png]]
+
+选择jupyter 核源
+![[Pasted image 20250318122809.png]]
+然后再选择我们刚刚创建的python环境. `ctrl+enter`/点击左边RUN按钮 运行代码块, 成功执行
+
+![[Pasted image 20250318122946.png]]
+
+OK，如果成功执行没有报错, 环境配置完成！
+
 
