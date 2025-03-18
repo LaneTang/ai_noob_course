@@ -108,7 +108,7 @@ conda activate env_name # env_name替换成想要的名字
 
 ![[Pasted image 20250309164139.png]]
 
-# 3 - pip源添加
+## pip源添加
 
 ##  方法一：临时指定镜像源（单次生效）
 
@@ -139,7 +139,7 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 
 复制粘贴下面的命令，回车
 ```bash
-pip install -r D:\workSpace\pyProj\requirements.txt # 这里替换成你requirements.txt的实际路径
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r D:\workSpace\pyProj\requirements.txt # 这里替换成你requirements.txt的实际路径
 ```
 
 ![[Pasted image 20250309171318.png]]
