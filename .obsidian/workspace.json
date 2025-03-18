@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"doc/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ced646b386b234c9",
+  "active": "491ed1544b642d4d",
   "lastOpenFiles": [
+    "requirements.txt",
     "mac教程.pdf",
     "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
     "doc/时间表.xlsx",

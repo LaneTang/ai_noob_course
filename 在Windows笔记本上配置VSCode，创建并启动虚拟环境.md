@@ -119,7 +119,7 @@ conda activate env_name # env_name替换成想要的名字
 在 `pip install` 命令中直接添加 `-i` 参数指定镜像源：
 
 ```bash
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple package_name
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r "D:\workSpace\lyh\lyh_doc\requirements.txt"
 ```
 
 ## 方法二：永久修改 pip 源
