@@ -1,4 +1,10 @@
+sentence_transformers
+rank_bm25
+jieba
+transformers
+FlagEmbedding
+modelscope
 openai
-jupyter
 requests
 pymupdf
+jupyter
