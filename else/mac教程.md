@@ -1,12 +1,8 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-</script>
+
 
 # 在Mac上部署VScode，创建并启动虚拟环境
 
-
-###  **注意**：因vscode下载安装教程在互联****网上已经比较成熟且与Windows系统的安装过程并无大的差异，故本篇就不再介绍。（若有疑问可以参考本次课程给出的Windows的下载安装vscode的教程）
+**注意**：因vscode下载安装教程在互联****网上已经比较成熟且与Windows系统的安装过程并无大的差异，故本篇就不再介绍。（若有疑问可以参考本次课程给出的Windows的下载安装vscode的教程）
 
 
 ## 第一步：安装Anaconda
