@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.2 本地化部署Deepseek.md",
+                "file": "课程操作手册.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.2 本地化部署Deepseek"
+              "title": "课程操作手册"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.2 本地化部署Deepseek.md",
+                "file": "课程操作手册.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3.2 本地化部署Deepseek 的大纲"
+              "title": "课程操作手册 的大纲"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,17 +181,18 @@
   },
   "active": "3d6583e5a81e5f77",
   "lastOpenFiles": [
-    "mac教程.pdf",
-    "3.2 本地化部署Deepseek.md",
-    "3.2 本地化部署Deepseek.pdf",
-    "3.1.pdf",
+    "2.1 个人电脑的环境配置.md",
+    "课程操作手册.md",
+    "2.1 个人电脑的环境配置.pdf",
     "2.1 Windows安装环境.md",
+    "3.1.pdf",
+    "3.2 本地化部署Deepseek.md",
+    "mac教程.pdf",
+    "3.2 本地化部署Deepseek.pdf",
     "未命名 1.canvas",
     "SFT.MD",
     "未命名.canvas",
     "2025-03-18.md",
-    "2.1 个人电脑的环境配置.pdf",
-    "2.1 个人电脑的环境配置.md",
     "软件资源/VSCodeUserSetup-x64-1.98.0.exe",
     "软件资源/Anaconda3-2024.10-1-Windows-x86_64.exe",
     "软件资源",
