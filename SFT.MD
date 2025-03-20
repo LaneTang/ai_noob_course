@@ -20,7 +20,7 @@ pip install -e ".[torch,metrics]"
 
 ## 2.添加数据集
 
-2.1 上传数据集dataset_info.json至LLaMA-Factory/datasets
+2.1 上传数据集ruozhiba_qa.json至LLaMA-Factory/data
 
 2.2 修改LLaMA-Factory/data/dataset_info.json
 添加下述信息进入dataset_info.json
