@@ -52,7 +52,7 @@ register_template(
 修改:LLaMA-Factory/examples/train_lora/llama3_lora_sft.yaml
 
 ```
-model_name_or_path: ../../Models/Qwen/Qwen2___5-0___5B-Instruct # 模型路径
+model_name_or_path: /root/Model/Qwen/Qwen2___5-0___5B-Instruct # 模型路径
 
 dataset: ruozhiba_qa # 数据集名称
 
@@ -64,7 +64,7 @@ output_dir: saves/Qwen25 # 输出储存路径
 ### 4.2 修改测试文件:
 修改:LLaMA-Factory/examples/inference/llama3_lora_sft.yaml
 ```
-model_name_or_path: ../../Models/Qwen/Qwen2___5-0___5B-Instruct
+model_name_or_path: /root/Model/Qwen/Qwen2___5-0___5B-Instruct
 adapter_name_or_path: saves/Qwen25
 template: qwen2
 ```
