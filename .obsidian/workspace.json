@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程操作手册.md",
+                "file": "else/教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "课程操作手册"
+              "title": "教程"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课程操作手册.md",
+                "file": "else/教程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "课程操作手册 的大纲"
+              "title": "教程 的大纲"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -181,8 +181,25 @@
   },
   "active": "3d6583e5a81e5f77",
   "lastOpenFiles": [
-    "2.1 个人电脑的环境配置.md",
     "课程操作手册.md",
+    "授课时间表_0320.xlsx",
+    "else/教程.md",
+    "else/mac教程.md",
+    "else/image.png",
+    "else/image-9.png",
+    "else/image-8.png",
+    "else/image-7.png",
+    "else/image-69.png",
+    "else/image-68.png",
+    "else/image-67.png",
+    "else/image-66.png",
+    "else/image-65.png",
+    "else/image-64.png",
+    "else/Figures/教程",
+    "else/Figures",
+    "else",
+    "8.4 RoBERTa.ipynb",
+    "2.1 个人电脑的环境配置.md",
     "2.1 个人电脑的环境配置.pdf",
     "2.1 Windows安装环境.md",
     "3.1.pdf",
@@ -194,21 +211,6 @@
     "未命名.canvas",
     "2025-03-18.md",
     "软件资源/VSCodeUserSetup-x64-1.98.0.exe",
-    "软件资源/Anaconda3-2024.10-1-Windows-x86_64.exe",
-    "软件资源",
-    "resrc",
-    "新建文件夹",
-    "generate_data_from_deepseek_r1.ipynb",
-    "img/Pasted image 20250318215800.png",
-    "img/Pasted image 20250318215719.png",
-    "img/Pasted image 20250318215627.png",
-    "img/Pasted image 20250318215552.png",
-    "img/Pasted image 20250318215419.png",
-    "img/Pasted image 20250318215059.png",
-    "img/Pasted image 20250318213259.png",
-    "img/Pasted image 20250318122946.png",
-    "img/Pasted image 20250318122809.png",
-    "img/Pasted image 20250318122701.png",
     "Obsidian-Remote/README.md"
   ]
 }
