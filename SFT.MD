@@ -54,7 +54,7 @@ register_template(
 ```
 model_name_or_path: ../../Models/Qwen/Qwen2___5-0___5B-Instruct # 模型路径
 
-dataset: ruozhiba_qa # 模型名称
+dataset: ruozhiba_qa # 数据集名称
 
 template: qwen2 # 模板名称
 
