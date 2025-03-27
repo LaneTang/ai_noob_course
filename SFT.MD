@@ -22,12 +22,15 @@ pip install -e ".[torch,metrics]"
 
 2.1 上传数据集ruozhiba_qa.json至LLaMA-Factory/data
 
-2.2 修改LLaMA-Factory/data/dataset_info.json
-添加下述信息进入dataset_info.json
-```
-"ruozhiba_qa": {
-    "file_name": "ruozhiba_qa.json"
-  }
+2.2 
+```python
+with open("./LLaMA-Factory/data/dataset_info.json", 'r', encoding='utf-8') as file:
+    dataset_info = json.load(file)
+
+dataset_info.update({'ruozhiba_qa': {'file_name': 'ruozhiba_qa.json'}})
+with open('./data/dataset_info.json', 'w', encoding='utf-8') as json_file:
+    json.dump(dataset_info, json_file, ensure_ascii=False, indent=4)
+print("dataset_info保存成功")
 ```
 
 ## 3. 修改模板文件
