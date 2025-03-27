@@ -22,7 +22,7 @@ pip install -e ".[torch,metrics]"
 
 2.1 上传数据集ruozhiba_qa.json至LLaMA-Factory/data
 
-2.2 
+2.2 创建jupyter文件, 以添加训练集信息
 ```python
 with open("./LLaMA-Factory/data/dataset_info.json", 'r', encoding='utf-8') as file:
     dataset_info = json.load(file)
