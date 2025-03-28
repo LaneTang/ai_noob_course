@@ -1,5 +1,12 @@
 ## 1.安装LLama-factory
 
+
+学术资源加速
+
+```bash
+source /etc/network_turbo
+```
+
 下载LLama-factory
 
 ```bash
